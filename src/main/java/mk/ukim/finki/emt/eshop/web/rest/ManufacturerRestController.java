@@ -20,7 +20,7 @@ public class ManufacturerRestController {
     }
 
     @GetMapping
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    //@PreAuthorize("hasRole('ROLE_ADMIN')")
     public List<Manufacturer> findAll() {
         return this.manufacturerService.findAll();
     }
