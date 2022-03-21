@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://fcse-emt-backend.herokuapp.com")
+@CrossOrigin(origins = "https://fcse-emt-frontend.herokuapp.com")
 @RequestMapping("/api/discounts")
 public class DiscountRestController {
 

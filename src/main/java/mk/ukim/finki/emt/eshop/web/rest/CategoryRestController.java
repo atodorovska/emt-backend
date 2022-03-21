@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://fcse-emt-backend.herokuapp.com")
+@CrossOrigin(origins = "https://fcse-emt-frontend.herokuapp.com")
 @RequestMapping("/api/categories")
 public class CategoryRestController {
 
