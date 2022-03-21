@@ -35,6 +35,5 @@ public class JWTWebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .addFilter(new JwtAuthenticationFilter(authenticationManager(),userService,passwordEncoder))
                 .addFilter(new JWTAuthorizationFilter(authenticationManager(),userService))
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-
     }
 }
